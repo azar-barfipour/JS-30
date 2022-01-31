@@ -1,0 +1,31 @@
+:root {
+  --base: #ffc600;
+  --blur: 10px;
+  --space: 10px;
+}
+
+body {
+  width: 70%;
+  margin: 10rem auto;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+}
+span {
+  color: var(--base);
+}
+.img-wrapper {
+  width: 50%;
+  margin: 2rem auto;
+}
+img {
+  background-color: var(--base);
+  padding: var(--space);
+  filter: blur(var(--blur));
+  width: 100%;
+}
